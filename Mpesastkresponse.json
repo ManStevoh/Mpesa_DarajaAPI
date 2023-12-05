@@ -1,0 +1,74 @@
+{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "12641-20473061-2",
+            "CheckoutRequestID": "ws_CO_23112023013337639728210962",
+            "ResultCode": 2001,
+            "ResultDesc": "The initiator information is invalid."
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "12635-20473527-1",
+            "CheckoutRequestID": "ws_CO_23112023013257711728210962",
+            "ResultCode": 0,
+            "ResultDesc": "The service request is processed successfully.",
+            "CallbackMetadata": {
+                "Item": [
+                    {
+                        "Name": "Amount",
+                        "Value": 1.00
+                    },
+                    {
+                        "Name": "MpesaReceiptNumber",
+                        "Value": "RKN23WQHRW"
+                    },
+                    {
+                        "Name": "Balance"
+                    },
+                    {
+                        "Name": "TransactionDate",
+                        "Value": 20231123013110
+                    },
+                    {
+                        "Name": "PhoneNumber",
+                        "Value": 254728210962
+                    }
+                ]
+            }
+        }
+    }
+}{
+    "Body": {
+        "stkCallback": {
+            "MerchantRequestID": "9454-49840756-1",
+            "CheckoutRequestID": "ws_CO_23112023013518648728210962",
+            "ResultCode": 0,
+            "ResultDesc": "The service request is processed successfully.",
+            "CallbackMetadata": {
+                "Item": [
+                    {
+                        "Name": "Amount",
+                        "Value": 2.00
+                    },
+                    {
+                        "Name": "MpesaReceiptNumber",
+                        "Value": "RKN83WQSPO"
+                    },
+                    {
+                        "Name": "Balance"
+                    },
+                    {
+                        "Name": "TransactionDate",
+                        "Value": 20231123013224
+                    },
+                    {
+                        "Name": "PhoneNumber",
+                        "Value": 254728210962
+                    }
+                ]
+            }
+        }
+    }
+}
